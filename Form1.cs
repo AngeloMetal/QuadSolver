@@ -109,7 +109,7 @@ namespace QuadSolver
 
                     if (D == 0)
                     {
-                        x = (float)((double)(b * (-1) / (2 * a)));
+                        x = (float)(double)((b * (-1m)) / (2m * a));
                         label6.Text = label6.Text + "x = " + x;
                     }
                 }
